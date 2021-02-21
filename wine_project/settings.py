@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Project apps
     'wines',
+    # Third party apps
+    'django_countries',
 ]
 
 MIDDLEWARE = [
