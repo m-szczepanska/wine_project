@@ -1,0 +1,10 @@
+# python
+*pycache/
+*.pyc
+
+# Git
+.git
+*.git/
+
+# SQLite
+*.sqlite3
