@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Project apps
     'wines',
+    'authentication',
     # Third party apps
     'django_countries',
 ]

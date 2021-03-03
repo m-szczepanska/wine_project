@@ -1,7 +1,9 @@
+<a href="add_wine">Add new wine</a>
+<hr>
 <ul>
 {% for wine in wines %}
     <li>
-        <a href="/wines/{{ wine.id }}/">
+        <a href="/wines/wine_details/{{ wine.id }}/">
             {{ wine.name }} - {{ wine.manufacturer }}
         </a>
     </li>
