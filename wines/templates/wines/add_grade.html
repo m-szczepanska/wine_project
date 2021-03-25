@@ -1,4 +1,6 @@
-<h2>login</h2>
+<a href="/logout/">Logout</a>
+<a href="/wines/">Back</a> or <a href="/wines/">go to the wine list</a>
+
 <form method="POST">{% csrf_token %}
     {{ form.as_p }}
     <button type="submit" class="save btn btn-default">Save</button>

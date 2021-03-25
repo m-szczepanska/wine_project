@@ -1,12 +1,14 @@
-<a href="/wines/">Back</a> or <a href="/wines/edit_wine/{{ wine.id }}/">edit</a>
+<a href="/logout/">Logout</a>
+<a href="/wines/">Back</a>
+<a href="/wines/add_grade/{{ wine.id }}/">add grade</a> or <a href="/wines/edit_wine/{{ wine.id }}/">edit</a>
 
 <h3>name: {{ wine.name }}</h3>
-<p>manufacturer: {{ wine.manufacturer }}<p>
-<p>sweetness: {{ wine.sweetness }}<p>
-<p>grape variety: {{ wine.grape_variety }}<p>
-<p>production year: {{ wine.production_year }}<p>
-<p>country: {{ wine.country }}<p>
-<p>url: {{ wine.url }}<p>
-<p>price: {{ wine.price }}<p>
-<p>description: {{ wine.description }}<p>
-<h3>grade: {{ wine.grade }}</h3>
+<p>manufacturer: {{ wine.manufacturer }}</p>
+<p>sweetness: {{ wine.sweetness }}</p>
+<p>grape variety: {{ wine.grape_variety }}</p>
+<p>production year: {{ wine.production_year }}</p>
+<p>country: {{ wine.country }}</p>
+<p>url: {{ wine.url }}</p>
+<p>price: {{ wine.price }}</p>
+<p>description: {{ wine.description }}</p>
+<p>grade: {{ wine.average_grade }}</p>
